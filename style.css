@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Roboto:ital,wght@0,300;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+
+    /* default color: rgb(48, 138, 234); */
+}
+
+body{
+    background-color: #f2f2f2;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 61.25rem;
+    margin: auto;
+    padding: 1.25rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+}
+
+p{
+    font-family: 'Roboto' , sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    transition: 0.2s ease-out;
+}
+
+a:hover {
+    color: rgb(44, 148, 245);
+
+}
+/* navbar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 3.75rem;
+    padding: 0 4rem;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    box-shadow: 0 0.25px 1px black;
+}
+
+.container h2 {
+    font-size: 2.5rem;
+
+}
+
+.nav-links{
+    display: flex;
+    gap: 1.3rem;
+}
+.nav-links a{
+    font-size: 1.3rem;
+}
+
+/* hero section */
+.hero-section{
+    width: 100vw;
+    height: 80%;
+    margin-top: 3.1rem;
+    overflow: hidden;
+}
+
+.hs-textarea{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25rem;
+    line-height: 3.75rem;
+}
+
+.hs-textarea h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 1.25rem 0;
+}
+
+.hs-textarea p{
+    line-height: 2rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+
+}
+
+.icons{
+    height: 2.5rem;
+    display: flex;
+    gap: 1.25rem;
+    margin: 1.25rem 0;
+}
+
+.hs-imagearea{
+    height: 22.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hs-imagearea img {
+    
+    height: 21.8rem;
+    width: 21.8rem;
+    border-radius: 50%;
+    margin-bottom: 3rem;  
+}
+
+/* Skills */
+
+.skills{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    width: 100vw;
+    height: 3.75rem;
+    margin-top: 2.5rem;
+    padding: 0.8rem 7rem 4rem 4rem;
+    background-color: white;
+}
+
+.skill-img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.s-img {
+     width: 3rem;
+    height: 3rem;
+}
+
+
+/* About */
+
+.about-section{
+    width: 100vw;
+    height: 33rem;
+    background-color: white;
+}
+
+.about-img img{
+    height: 23rem;
+    width: 23rem;
+    margin-right: 2rem;
+    border-radius: 1.25rem;
+}
+
+.about-textarea{
+    width: 30rem;
+    height: 22rem;
+}
+
+.about-text h2{
+    line-height: 3rem;
+    margin: 1.25rem 0;
+}
+
+.about-text h3{
+    color: rgb(48, 138, 234);
+}
+
+/* Portfolio */
+
+.portfolio{
+    max-width: 61.25rem;
+    margin: auto;
+    padding: 5rem 1.25rem 1.25rem 1.25rem;
+    background-color: #f2f2f2;
+}
+
+.portfolio h3{
+    color: rgb(48, 138, 234);
+    margin-bottom: 1.25rem;
+}
+
+.portfolio span {
+    color: rgba(223, 46, 10, 0.877);
+}
+
+/* Portfolio -1 */
+
+.project {
+    margin: 3rem 0;
+    justify-content: center;
+}
+
+.port1 {
+    background-color: white;
+    height: 25rem;
+    width: 62rem;
+    border-radius: 1.25rem;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+.port1img img {
+    width: 33.25rem;
+    height: 22rem;
+    border-radius: 1.25rem;
+    border: 1px solid black;
+}
+
+.port1text {
+    flex-direction: column;
+    text-align: center;
+}
+
+.port1text h3 {
+    font-size: 2rem;
+}
+
+.btntext {
+    flex-direction: row;
+}
+
+.btntext span {
+    align-items: center;
+    height: 3rem;
+    width: 5rem;
+    background-color: #f2f2f2;
+    border-radius: 0.25rem;
+}
+
+.bx {
+    box-shadow: 1px 1px 5px black;
+}
+
+.pro-2 {
+    flex-direction: row-reverse;
+}
+
+.pro-4 {
+    flex-direction: row-reverse;
+}
+
+/* Contact me */
+
+.contact {
+    padding-top: 4rem;
+    width: 100vw;
+    height: 22rem;
+    background-color: white;
+}
+
+.contact-main {
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.contact-main h3 {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.socialmedia {
+    justify-content: flex-start;
+}
+
+.socialmedia p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-bottom: 3rem;
+}
+
+/* footer */
+
+footer {
+    width: 100vw;
+    height: 3rem; 
+    padding: 1.1rem 0 1.6rem 0;
+    background-color: #e7dddddf;
+    text-align: center;
+}
+
