@@ -201,11 +201,11 @@
     .skill-img {
         height: 1rem;
         flex-wrap: wrap;
-        gap: 1rem;
+        gap: 0.8rem;
     }
     .icn {
-        width: 2rem;
-        height: 2rem;
+        width: 1.9rem;
+        height: 1.9rem;
     }
     .about-section {
         height: 63rem;
