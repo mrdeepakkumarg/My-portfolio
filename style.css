@@ -5,12 +5,10 @@
     font-family: 'poppins', sans-serif;
     box-sizing: border-box;
 
-    /* default color: rgb(48, 138, 234); */
 }
 
 body{
     background-color: #f2f2f2;
-    overflow: auto;
     overflow-x: hidden;
 }
 
@@ -20,6 +18,7 @@ body{
     padding: 1.25rem;
     display: flex;
     justify-content: space-between;
+    overflow: hidden;
 }
 
 .flex {
@@ -42,6 +41,11 @@ a:hover {
     color: rgb(44, 148, 245);
 
 }
+
+.main {
+    overflow: hidden;
+}
+
 /* navbar */
 .navbar{
     display: flex;
@@ -68,6 +72,11 @@ a:hover {
 .nav-links a{
     font-size: 1.3rem;
 }
+
+.nav-toggle {
+    display: none;
+}
+
 
 /* hero section */
 .hero-section{
@@ -165,12 +174,17 @@ a:hover {
     height: 22rem;
 }
 
-.about-text h2{
+.about-textarea h2{
     line-height: 3rem;
     margin: 1.25rem 0;
 }
 
-.about-text h3{
+.about-textarea p {
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+}
+
+.about-textarea h3{
     color: rgb(48, 138, 234);
 }
 
@@ -266,8 +280,20 @@ a:hover {
     font-weight: 700;
 }
 
+.cont-main-h3 {
+    font-size: 1.5rem;
+    color: rgb(44, 148, 245);
+}
+
 .socialmedia {
     justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.social-media-icons {
+    display: flex;
+    gap: 2.5rem;
 }
 
 .socialmedia p {
