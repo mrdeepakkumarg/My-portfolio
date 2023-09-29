@@ -2,143 +2,203 @@
     .container {
         max-width: 45rem;
     }
+
     .hs-textarea {
         width: 22rem;
         line-height: 3.2rem;
     }
+
     .hs-textarea h1 {
         font-size: 2.2rem;
         font-weight: 600;
     }
-    .hs-textarea p{
+
+    .hs-textarea p {
         line-height: 2rem;
         font-size: 1rem;
         font-weight: 500;
     }
+
     .hs-imagearea {
         height: 20rem;
     }
+
     .hs-imagearea img {
         height: 19rem;
         width: 19rem;
     }
+
     .skills {
         gap: 1.75rem;
         padding: 0.25rem 3rem 5rem 3rem;
     }
+
     .about-section {
         height: 30rem;
     }
-    .about-img img{
+
+    .about-img img {
         height: 20rem;
         width: 20rem;
     }
-    .about-textarea h2{
+
+    .about-textarea h2 {
         font-size: 1.5rem;
         line-height: 1.6rem;
         margin: 1rem 0;
     }
+
     .about-textarea p {
         font-size: 0.9rem;
         line-height: 1.2rem;
     }
+
     .portfolio {
         padding: 4rem 1.25rem 1.25rem 2rem;
     }
+
     .port1 {
         width: 33.75rem;
         height: 48rem;
     }
+
     .port1img img {
         width: 31rem;
         height: 20rem;
     }
+
     .cont2 {
         flex-direction: column;
         align-items: center;
     }
 
+    .contact-main {
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width: 767px) {
-    .nav-links a{
-        display: none;
+    .navbar {
+        padding: 0 2rem;
     }
+
+    .navbar h2 {
+        font-size: 1.6em;
+    }
+
+    .nav-links  {
+        display: block;
+        position: fixed;
+        width: 100%;
+        padding: 0.5rem 0;
+        top: 3.75rem;
+        left: 0;
+        background-color: #f2f2f2;
+        text-align: center;
+        overflow: hidden;
+        visibility: hidden;
+    }
+
+    .nav-links a {
+        display: block;
+        font-size: 1.5rem;
+        margin: 1rem 0;
+    }
+
     .nav-toggle {
         display: block;
-        margin-right: 1.5rem;
+        font-size: 1rem;
+        margin-right: 1rem;
     }
+
     .container {
         width: 31.25rem;
     }
+
     .hs-home {
         flex-direction: column-reverse;
         align-items: center;
     }
+
     .hs-textarea {
         text-align: center;
         align-items: center;
         width: 25rem;
     }
-    .hs-textarea p{
+
+    .hs-textarea p {
         line-height: 2rem;
         font-size: 1.2rem;
         font-weight: 500;
     }
+
     .skills {
         flex-direction: column;
     }
+
     .skill-img {
         height: 2rem;
         flex-wrap: wrap;
         gap: 1rem;
     }
+
     .about-section {
         height: 65rem;
     }
+
     .about-home {
         flex-direction: column;
         align-items: center;
     }
+
     .about-textarea {
-      text-align: center;
-      margin-top: 2rem;
-      height: 30rem;
-      width: 23rem;
+        text-align: center;
+        margin-top: 2rem;
+        height: 30rem;
+        width: 23rem;
     }
+
     .about-img {
         margin-top: 7rem;
     }
-    .about-textarea h2{
+
+    .about-textarea h2 {
         font-size: 2rem;
         line-height: 2rem;
         margin: 1.5rem 0;
 
     }
+
     .about-textarea p {
         font-size: 1rem;
         line-height: 1.4rem;
     }
+
     .port1 {
         width: 28rem;
         height: 48rem;
     }
+
     .cont2 {
         flex-direction: column;
         align-items: center;
         width: 26rem;
     }
+
     .port1img img {
         width: 25rem;
         height: 20rem;
     }
+
     .contact {
         padding-top: 2rem;
-        height: 25rem;
     }
+
     .contact-main {
+        justify-content: center;
         gap: 1rem;
     }
+
     .socialmedia {
         gap: 1rem;
     }
@@ -146,137 +206,193 @@
 
 @media screen and (max-width: 479px) {
     .navbar {
-        padding: 1rem 2rem;
+        padding: 1rem 1.8rem;
     }
-    .nav-links a{
-        display: none;
+
+    .navbar h2 {
+        font-size: 1.4em;
     }
+
+    .nav-links  {
+        display: block;
+        position: fixed;
+        width: 100%;
+        padding: 0.5rem 0;
+        top: 3.75rem;
+        left: 0;
+        background-color: #f2f2f2;
+        text-align: center;
+        overflow: hidden;
+        visibility: hidden;
+    }
+
+    .nav-links a {
+        display: block;
+        font-size: 1.5rem;
+        margin: 1rem 0;
+    }
+
     .nav-toggle {
         display: block;
-        margin-right: 1.5rem;
+        font-size: 0.8rem;
     }
+
     .container {
         width: 20rem;
     }
+
     .hs-home {
         flex-direction: column-reverse;
         align-items: center;
     }
-    .hs-imagearea{
+
+    .hs-imagearea {
         height: 16rem;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    
+
     .hs-imagearea img {
-        
+
         height: 15rem;
         width: 15rem;
         border-radius: 50%;
-        margin-bottom: 3rem;  
+        margin-bottom: 3rem;
     }
+
     .hs-textarea {
         text-align: center;
         align-items: center;
         width: 18rem;
         line-height: 2rem;
     }
+
     .hs-textarea h1 {
         font-size: 1.5rem;
         font-weight: 600;
     }
-    .hs-textarea p{
+
+    .hs-textarea p {
         line-height: 1.8rem;
         font-size: 1rem;
         font-weight: 500;
     }
+
     .skills {
         flex-direction: column;
         height: 3.75rem;
     }
+
     .skills h2 {
         text-decoration: underline;
     }
+
     .skill-img {
         height: 1rem;
         flex-wrap: wrap;
-        gap: 0.8rem;
+        gap: 1rem;
     }
+
     .icn {
-        width: 1.9rem;
-        height: 1.9rem;
+        width: 2rem;
+        height: 2rem;
     }
+
     .about-section {
         height: 63rem;
     }
+
     .about-home {
         flex-direction: column;
         align-items: center;
     }
+
     .about-textarea {
-      text-align: center;
-      margin-top: 2rem;
-      height: 35rem;
-      width: 18rem;
+        text-align: center;
+        margin-top: 2rem;
+        height: 35rem;
+        width: 18rem;
     }
+
     .about-img {
         margin-top: 5rem;
     }
-    .about-img img{
+
+    .about-img img {
         height: 15rem;
         width: 15rem;
     }
-    .about-textarea h2{
+
+    .about-textarea h2 {
         font-size: 1.8rem;
         line-height: 2rem;
         margin: 1.5rem 0;
 
     }
+
     .about-textarea p {
         font-size: 1rem;
         line-height: 1.4rem;
     }
+
     .portfolio {
         padding: 3rem 1.25rem 1.25rem 1.25rem;
     }
+
     .port1 {
         width: 20rem;
         height: 48rem;
     }
+
     .cont2 {
         flex-direction: column;
         align-items: center;
         width: 18rem;
     }
+
     .port1img img {
         width: 18rem;
         height: 18rem;
     }
+
     .port1text h3 {
         font-size: 1.8rem;
     }
+
     .contact {
         padding-top: 2rem;
-        height: 22rem;
     }
+
     .contact-main {
         gap: 0.5rem;
     }
+
     .contact-main h3 {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         font-weight: 700;
     }
+
     .cont-main-h3 {
         font-size: 1.2rem;
         color: rgb(44, 148, 245);
     }
+
+    .socialmedia p {
+        font-size: 1.2rem;
+    }
+
     .socialmedia {
         gap: 0.25rem;
     }
+
     .social-media-icons {
         display: flex;
         gap: 1rem;
+    }
+
+    .signup {
+        margin-top: 1.5rem;
     }
 
 
